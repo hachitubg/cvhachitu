@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cvhachitu/static/css/main.5f361e03.chunk.css",
-    "main.js": "/cvhachitu/static/js/main.a21d68cb.chunk.js",
-    "main.js.map": "/cvhachitu/static/js/main.a21d68cb.chunk.js.map",
+    "main.js": "/cvhachitu/static/js/main.d8df9703.chunk.js",
+    "main.js.map": "/cvhachitu/static/js/main.d8df9703.chunk.js.map",
     "runtime-main.js": "/cvhachitu/static/js/runtime-main.7d42517b.js",
     "runtime-main.js.map": "/cvhachitu/static/js/runtime-main.7d42517b.js.map",
     "static/js/2.48d8b463.chunk.js": "/cvhachitu/static/js/2.48d8b463.chunk.js",
     "static/js/2.48d8b463.chunk.js.map": "/cvhachitu/static/js/2.48d8b463.chunk.js.map",
     "index.html": "/cvhachitu/index.html",
-    "precache-manifest.8b12e40b88453fa9993a686eabe6c84f.js": "/cvhachitu/precache-manifest.8b12e40b88453fa9993a686eabe6c84f.js",
+    "precache-manifest.c9068956b25d3ee0b505535bc999e19a.js": "/cvhachitu/precache-manifest.c9068956b25d3ee0b505535bc999e19a.js",
     "service-worker.js": "/cvhachitu/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/cvhachitu/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.48d8b463.chunk.js.LICENSE.txt": "/cvhachitu/static/js/2.48d8b463.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.7d42517b.js",
     "static/js/2.48d8b463.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.a21d68cb.chunk.js"
+    "static/js/main.d8df9703.chunk.js"
   ]
 }
