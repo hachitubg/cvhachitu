@@ -73,7 +73,7 @@ function About() {
           Learning new languages and technologies is what I am passionate about. I am considered a team-player because I like to help other and tend to work well within groups. I can also do some mentoring tasks and do code reviewing for other team members. I like helping other and work well with group. I can also do some mentoring tasks and code reviewing for other member.
         </p>
         <div className="social-icons">
-          <a href="public/Ha-Chi-Tu-CV.pdf">
+          <a href="./img/Ha-Chi-Tu-CV.pdf">
             <FontAwesomeIcon icon={faDownload} />
           </a>
           <a href="https://www.facebook.com/tusieunhan6789">
