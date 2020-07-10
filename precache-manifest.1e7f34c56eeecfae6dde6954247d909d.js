@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2d4e98cd1ee513af179ef497bfdcdea",
+    "revision": "a18d608e8251635392becb120c3ce3e6",
     "url": "/cvhachitu/index.html"
   },
   {
-    "revision": "3c188dac63340fe083d8",
-    "url": "/cvhachitu/static/css/main.5f361e03.chunk.css"
+    "revision": "a37678ec294894104b4f",
+    "url": "/cvhachitu/static/css/main.523f09c5.chunk.css"
   },
   {
     "revision": "512bd74bdb3956020b0b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cvhachitu/static/js/2.48d8b463.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c188dac63340fe083d8",
-    "url": "/cvhachitu/static/js/main.d8df9703.chunk.js"
+    "revision": "a37678ec294894104b4f",
+    "url": "/cvhachitu/static/js/main.a21d68cb.chunk.js"
   },
   {
     "revision": "d344573bfeb01436358f",
