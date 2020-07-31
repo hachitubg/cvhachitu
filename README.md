@@ -2,15 +2,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to deploy project
 
-In the project directory, you can deploy:<br />
-link deploy: https://hachitubg.github.io/cvhachitu
+In the project directory, you can deploy:
 
 ### `npm install --save gh-pages`
 install gh-pages package
 
 ### `npm run deploy`
 deploy application
-
+<br />
+Now open: https://hachitubg.github.io/cvhachitu
+<br />
 ## Available Scripts
 
 In the project directory, you can run:
