@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to deploy project
+
+In the project directory, you can deploy:
+
+### `npm install --save gh-pages`
+install gh-pages package
+
+### `npm run deploy`
+deploy application
+
 ## Available Scripts
 
 In the project directory, you can run:
