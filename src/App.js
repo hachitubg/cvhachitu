@@ -1,5 +1,6 @@
 import React from 'react';
 import avatar from './img/avatar.jpg';
+import cvDownload from './img/cv-hachitu-2021.pdf';
 import './App.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -32,10 +33,10 @@ function NavShow() {
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
-          {/* <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
-          <li class="nav-item">
+          {/* <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
           </li> */}
         </ul>
@@ -55,6 +56,8 @@ function Container() {
       <hr className="m-0"/>
       <Skills/>
       <hr className="m-0"/>
+      <Interests/>
+      <hr className="m-0"/>
     </div>
   )
 }
@@ -68,15 +71,17 @@ function About() {
           <a href="mailto:hachitu0305@gmail.com">hachitu0305@gmail.com</a>
         </div>
         <p className="lead mb-5">
-          I'm Ha Chi Tu, a full stack developer with <b>1 years of experience in JAVA technologies</b> and <b>more 1 year of experience in PHP</b>, with good knowledge of <i>Database Design, Node.JS, Spring, Hibernate, Angular...</i>.
+          I'm Ha Chi Tu, a full stack developer with <b>more 2 years of experience in JAVA technologies</b> and <b>more 1 year of experience in PHP</b>, with good knowledge of <i>Database Design, Node.JS, Spring, Hibernate, Angular...</i>.
           <br/><br/>
           Learning new languages and technologies is what I am passionate about. I am considered a team-player because I like to help other and tend to work well within groups. I can also do some mentoring tasks and do code reviewing for other team members. I like helping other and work well with group. I can also do some mentoring tasks and code reviewing for other member.
+          <br/><br/>
+          Download my CV and visit my Facebook.
         </p>
         <div className="social-icons">
-          <a href="./img/Ha-Chi-Tu-CV.pdf">
+          <a href={cvDownload}>
             <FontAwesomeIcon icon={faDownload} />
           </a>
-          <a href="https://www.facebook.com/tusieunhan6789">
+          <a href="https://www.facebook.com/hachituz">
             <FontAwesomeIcon icon={faFacebook} />
           </a>
         </div>
@@ -102,6 +107,14 @@ function Experience() {
               <li><b>Responsiblities: </b>Meeting with customers and teammates to get clear requirement. Develop the frameworks and modules of the system.</li>
               <li><b>Technologies: </b>Front-end: ReactJS, AngularJS, Angular 7, Primefaces. Back-end: Java Core, Spring, Hibernate, Redis.</li>
               <li><b>Leader: </b>Lê Thế Việt - CONTACT: 0373030995</li>
+            </ul>
+            <div className="subheading mb-3">TAGON COMPANY</div>
+            <ul>
+              <li><b>Project: </b>TagOn</li>
+              <li><b>Project Description: </b>Building data labeling system</li>
+              <li><b>Responsiblities: </b>Fullstack developer.</li>
+              <li><b>Technologies: </b>Front-end: Angular. Back-end: Java, Spring, JPA.</li>
+              <li><b>Manager: </b>Phạm Nguyên Bình</li>
             </ul>
           </div>
           <div className="resume-date text-md-right">
@@ -161,7 +174,7 @@ function Education() {
               <li>The only student to receive Korean TOPCIT certification</li>
               <li>Head of a school-level scientific research team. Project: course support system</li>
               <li>Outstanding student of the department and received a scholarship 4/6 semesters</li>
-              <li>GPA ≥ 3.5</li>
+              <li>GPA: 3.5</li>
             </ul>
           </div>
           <div className="resume-date text-md-right">
@@ -184,18 +197,18 @@ function Skills() {
             <div className="skill-box">
               <h4>Programming languages</h4>
               <ul>
-                  <li>PHP</li>
-                  <li>Java</li>                  
-                  <li>JavaScript</li>
-                  <li>HTML, CSS</li>
+                  <li>Java</li>   
+                  <li>Angular</li> 
+                  <li>HTML, CSS, JavaScript</li>
+                  <li>PHP</li>       
               </ul>
             </div>
             <div className="skill-box">
               <h4>DATABASE</h4>
               <ul>
                   <li>MySQL</li>
-                  <li>MongoDB</li>
                   <li>SQL Service</li>
+                  <li>MongoDB</li>
               </ul>
             </div>
             <div className="skill-box">
@@ -203,7 +216,7 @@ function Skills() {
               <ul>
                   <li>Sublime Text </li>
                   <li>Visual Studio</li>
-                  <li>Eclipse & Netbeans</li>
+                  <li>Eclipse &amp; Netbeans</li>
                   <li>Intellij</li>
               </ul>
             </div>
@@ -213,18 +226,17 @@ function Skills() {
               <h4>Frameworks &amp; platforms</h4>
               <ul>
                   <li>Codeigniter </li>
-                  <li>Spring / Hibernate </li>
+                  <li>Spring / Hibernate / JPA </li>
+                  <li>Angular / AngularJS / NodeJS</li>
+                  <li>Boostrap / JQuery / Primefaces / PrimeNG</li>
                   <li>ReactJS</li>
-                  <li>Angular 7 / AngularJS / NodeJS</li>
-                  <li>Boostrap / JQuery / Primefaces</li>
-                  <li>RestfulAPI / JSON, XML</li>
               </ul>
             </div>
             <div className="skill-box">
               <h4>VERSION CONTROL</h4>
               <ul>
-                  <li>Git (Git Shell & Github)</li>
-                  <li>SVN (TortoiseSVN & VisualSVN)</li>
+                  <li>Git (Git Shell &amp; Github)</li>
+                  <li>SVN (TortoiseSVN &amp; VisualSVN)</li>
               </ul>
             </div>
           </div>
@@ -239,8 +251,10 @@ function Interests() {
     <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div className="w-100">
         <h2 className="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p className="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+        <p>Apart from being a web developer, I enjoy most of my time being outdoors. On vacations I like to go camping and travel with my dear friends and family.</p>
+        <p className="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements.</p>
+        <br/>
+        <p className="mb-0">In addition, I also spend my time in the gym and sports, my favorite sport is football.</p>
       </div>
     </section>
   );
